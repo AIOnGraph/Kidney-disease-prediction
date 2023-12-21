@@ -148,7 +148,7 @@ if button:
         scaler = joblib.load('standard_scalar_NN.pkl')
         user_data_scaled = scaler.transform(Newdataset)
         ynew=model.predict(user_data_scaled)
-        st.write(ynew)
+        # st.write(ynew)
         print("------",ynew)
         scaler = joblib.load('standard_scalar_NN.pkl')
         # print(UserDetails_encoded)
