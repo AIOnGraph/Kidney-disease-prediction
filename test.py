@@ -143,7 +143,7 @@ with st.container(border=True):
 
 if button:
         # print("Model parameters:", model.get_params())
-        st.write("Model parameters:", model.get_params())
+        # st.write("Model parameters:", model.get_params())
         Newdataset = pd.read_csv('newdata.csv')
         scaler = joblib.load('standard_scalar_NN.pkl')
         user_data_scaled = scaler.transform(Newdataset)
