@@ -2,3 +2,5 @@ venv/
 main.py
 DeepLearning_SVC.ipynb
 requirements (1).txt
+.~lock.kidney_disease2.csv#
+.~lock.newdata.csv#
